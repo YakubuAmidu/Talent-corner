@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./Sass.scss";
 import TopScreen from ".././screens/TopScreen";
 import ImageScreen from ".././screens/ImageScreen";
 
