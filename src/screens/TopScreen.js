@@ -4,7 +4,7 @@ import { Navbar, Nav } from "react-bootstrap";
 const TopScreen = () => {
   return (
     <div>
-      <Navbar bg="light" expand="md">
+      <Navbar bg="primary" expand="md">
         <Navbar.Brand href="#home">
           <strong>Talent</strong> Corner
         </Navbar.Brand>
