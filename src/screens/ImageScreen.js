@@ -13,8 +13,12 @@ const ImageScreen = () => {
         <p className="Background_title">TOP</p>
         <p className="Background_title">EMPLOYERS</p>
         <p className="Background_message">create your future with us</p>
-        <Button className="Btn_header danger">FIND TALENT</Button>
-        <Button className="Btn_header danger">FIND JOB</Button>
+        <Button className="Btn_header" variant="light">
+          FIND TALENT
+        </Button>
+        <Button className="Btn_header" variant="light">
+          FIND JOB
+        </Button>
       </div>
     </div>
   );
