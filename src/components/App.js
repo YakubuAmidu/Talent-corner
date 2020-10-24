@@ -1,16 +1,16 @@
 import React, { Component } from "react";
-import "./Sass.scss";
-import TopScreen from ".././screens/TopScreen";
+import TopScreen from "../screens/TopScreen";
 import ImageScreen from ".././screens/ImageScreen";
-import GoldScreen from ".././screens/GoldScreen";
+import "./Sass.scss";
 
 class App extends Component {
   render() {
     return (
       <div>
-        <TopScreen />
-        <ImageScreen />
-        <GoldScreen />
+        <div>
+          <TopScreen />
+          <ImageScreen />
+        </div>
       </div>
     );
   }

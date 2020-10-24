@@ -1,24 +1,16 @@
 import React from "react";
 import ".././components/Sass.scss";
-import { Button } from "react-bootstrap";
-import background_Image from ".././assets/background_Image.png";
+import Background from "../assets/background.png";
 
 const ImageScreen = () => {
   return (
-    <div className="Background_header">
-      <img src={background_Image} alt="img" className="Background-Image" />
-      <div className="Background">
-        <p className="Background_title">FRESH</p>
-        <p className="Background_title">TALENT +</p>
-        <p className="Background_title">TOP</p>
-        <p className="Background_title">EMPLOYERS</p>
-        <p className="Background_message">create your future with us</p>
-        <Button className="Btn_header" variant="light">
-          FIND TALENT
-        </Button>
-        <Button className="Btn_header" variant="light">
-          FIND JOB
-        </Button>
+    <div className="App_image">
+      <div>
+        <img
+          className="Background_image"
+          src={Background}
+          alt="background-img"
+        />
       </div>
     </div>
   );
