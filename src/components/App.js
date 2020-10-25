@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import { Row, Col, Button } from "react-bootstrap";
+import { Row, Col, Button, Image } from "react-bootstrap";
+import profile_one from "../assets/profile_one.png";
 import Links from "./Links";
 
 class App extends Component {
@@ -25,19 +26,54 @@ class App extends Component {
           <Row className="Logo_box">
             <Col className="Logo_box_one">
               <p className="Logo_image">Logo</p>
-              <p className="Logo_description">GRAPHIC DESIGNER</p>
+              <p className="Logo_description">GRAPHIC DESIGNERS</p>
             </Col>
             <Col className="Logo_box_one">
               <p className="Logo_image">Logo</p>
-              <p className="Logo_description">GRAPHIC DESIGNER</p>
+              <p className="Logo_description">COPYWRITERS</p>
             </Col>
             <Col className="Logo_box_one">
               <p className="Logo_image">Logo</p>
-              <p className="Logo_description">GRAPHIC DESIGNER</p>
+              <p className="Logo_description">CREATIVE DIRECTORS</p>
             </Col>
             <Col className="Logo_box_one">
               <p className="Logo_image">Logo</p>
-              <p className="Logo_description">GRAPHIC DESIGNER</p>
+              <p className="Logo_description">CLIENT MANAGERS</p>
+            </Col>
+          </Row>
+        </div>
+
+        <div className="About_section">
+          <h1>+ ABOUT</h1>
+          <p>The people behind Creative Corner:</p>
+          <Row>
+            <Col className="Profile_box">
+              <img
+                src={profile_one}
+                alt="profile-img"
+                className="Profile_image"
+              />
+            </Col>
+            <Col className="Profile_box">
+              <img
+                src={profile_one}
+                alt="profile-img"
+                className="Profile_image"
+              />
+            </Col>
+            <Col className="Profile_box">
+              <img
+                src={profile_one}
+                alt="profile-img"
+                className="Profile_image"
+              />
+            </Col>
+            <Col className="Profile_box">
+              <img
+                src={profile_one}
+                alt="profile-img"
+                className="Profile_image"
+              />
             </Col>
           </Row>
         </div>

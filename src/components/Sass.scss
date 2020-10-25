@@ -49,6 +49,9 @@
 
 .Gold_background {
   background-color: gold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding-top: 40px;
   padding-bottom: 15px;
   padding-left: 15px;
@@ -67,4 +70,13 @@
 
 .Logo_description {
   font-size: 10px;
+}
+
+.Profile_box {
+  text-align: center;
+}
+
+.Profile_image {
+  width: 150px;
+  height: 150px;
 }
