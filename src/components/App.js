@@ -115,27 +115,31 @@ class App extends Component {
 
         <div className="Contact_section">
           <h1 className="About">+ ABOUT</h1>
-          <p className="People">Over the phon or online</p>
+          <p className="Online">Over the phone or online</p>
 
           <div className="Contact_address">
             <Row>
-              <Col className="Mail">
+              <Col className="Mail" md={6}>
                 <div className="Mail_one">
-                  <p>Icon intfo@mysite.com</p>
-                  <p>Icon 515-555-444</p>
+                  <p className="Icon">Icon intfo@mysite.com</p>
+                  <p className="Number">Icon 515-555-444</p>
                   <br />
-                  <p>500 Terry Francois Street San Francisco, CA 94158</p>
+                  <p className="Location">
+                    500 Terry Francois Street San Francisco, CA 94158
+                  </p>
                   <br />
-                  <p>Map satelite</p>
+                  <p className="Map">Map satelite</p>
+                  <br />
                 </div>
               </Col>
-              <Col className="Message">
+
+              <Col className="Message" md={6}>
                 <div className="Message_one">
-                  <p>
+                  <p className="Message_two">
                     If you're talented and looking for a job, contact us here.
                   </p>
                   <br />
-                  <Form>
+                  <Form className="Contact_info">
                     <Form.Label>Enter Your Name</Form.Label>
                     <Form.Control required type="text" placeholder="Name" />
                     <Form.Label>Enter Your Email</Form.Label>
