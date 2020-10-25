@@ -1,20 +1,38 @@
 import React from "react";
+import ".././components/Sass.scss";
+import { Link } from "react-router-dom";
 import { Navbar, Nav } from "react-bootstrap";
 
 const TopScreen = () => {
   return (
     <div className="Navbar">
-      <Navbar bg="primary" expand="md">
+      <Navbar bg="dark" expand="md">
         <Navbar.Brand href="#home">
-          <strong>Talent</strong> Corner
+          <strong className="Talent_one">Talent</strong> Corner
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#home">Find Talent</Nav.Link>
-            <Nav.Link href="#home">Find Job</Nav.Link>
-            <Nav.Link href="#link">Link</Nav.Link>
+            <Nav.Link href="#home">
+              <Link to="#" className="Links_one">
+                Home
+              </Link>
+            </Nav.Link>
+            <Nav.Link href="#home">
+              <Link to="#" className="Links_one">
+                Find Talent
+              </Link>
+            </Nav.Link>
+            <Nav.Link href="#home">
+              <Link to="#" className="Links_one">
+                Find Job
+              </Link>
+            </Nav.Link>
+            <Nav.Link href="#link">
+              <Link to="#" className="Links_one">
+                Link
+              </Link>
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

@@ -1,15 +1,16 @@
 .App_header {
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
 }
 
 .Background_image-main {
   position: absolute;
   width: 100%;
-  height: 100%;
+  height: 90%;
 }
 
 .Background_titles {
+  text-align: center;
   position: relative;
   padding-top: 15%;
   margin-left: 10%;
@@ -45,4 +46,22 @@
   font-family: "Lobster", cursive;
   word-spacing: 5px;
   margin-bottom: 15px;
+}
+
+.Talent_one {
+  color: #fff;
+}
+
+.Links_one {
+  color: #fff;
+  margin-right: 10px;
+  text-transform: uppercase;
+}
+
+.Links_one:hover {
+  background-color: #fff;
+  border-radius: 5px;
+  color: gray;
+  text-decoration: none;
+  padding: 5px;
 }

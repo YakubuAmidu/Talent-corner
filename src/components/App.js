@@ -18,7 +18,7 @@ class App extends Component {
           />
           <div className="Background_titles">
             <div className="Fresh">FRESH</div>
-            <div className="Talent">TALENT +</div>
+            <div className="Talent">TALENT + </div>
             <div className="Top">TOP</div>
             <div className="Employers">EMPLOYERS</div>
             <div className="Create">create your future with us</div>
@@ -30,36 +30,6 @@ class App extends Component {
                 </Col>
               </Row>
             </span>
-          </div>
-        </div>
-
-        <div className="Gold_background">
-          <div className="Logos">
-            <i class="far fa-pencil-alt" className="Logp_pencil">
-              Hello
-            </i>
-            <p className="Description">GRAPHIC DESIGN</p>
-          </div>
-
-          <div className="Logos">
-            <i class="far fa-pencil-alt" className="Logp_pencil">
-              Hello
-            </i>
-            <p className="Description">GRAPHIC DESIGN</p>
-          </div>
-
-          <div className="Logos">
-            <i class="far fa-pencil-alt" className="Logp_pencil">
-              Hello
-            </i>
-            <p className="Description">GRAPHIC DESIGN</p>
-          </div>
-
-          <div className="Logos">
-            <i class="far fa-pencil-alt" className="Logp_pencil">
-              Hello
-            </i>
-            <p className="Description">GRAPHIC DESIGN</p>
           </div>
         </div>
       </div>
