@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import TopScreen from "../screens/TopScreen";
 import background from ".././assets/background.png";
+import { Col, Row, Button } from "react-bootstrap";
 import "./Sass.scss";
 
 class App extends Component {
@@ -25,10 +26,8 @@ class App extends Component {
           <span className="Link_buttons">
             <Row>
               <Col>
-                <Button>FIND TALENT</Button>
-              </Col>
-              <Col>
-                <Button>FIND TALENT</Button>
+                <Button className="btn btn-dark">FIND TALENT</Button>
+                <Button className="btn btn-dark">FIND JOB</Button>
               </Col>
             </Row>
           </span>
