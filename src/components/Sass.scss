@@ -6,11 +6,36 @@
 .Background_image-main {
   position: absolute;
   width: 100%;
-  height: 80%;
+  height: 100%;
 }
 
 .Background_titles {
   position: relative;
-  left: 10%;
   padding-top: 15%;
+  margin-left: 10%;
+}
+
+.Fresh {
+  font-size: 35px;
+  color: #fff;
+}
+
+.Talent {
+  font-size: 35px;
+  color: #fff;
+}
+
+.Top {
+  font-size: 35px;
+  color: #fff;
+}
+
+.Employers {
+  font-size: 35px;
+  color: #fff;
+}
+
+.Create {
+  color: #fff;
+  margin-bottom: 10px;
 }
