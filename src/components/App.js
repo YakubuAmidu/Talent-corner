@@ -47,8 +47,8 @@ class App extends Component {
         </div>
 
         <div className="About_section">
-          <h1>+ ABOUT</h1>
-          <p>The people behind Creative Corner:</p>
+          <h1 className="About">+ ABOUT</h1>
+          <p className="People">The people behind Creative Corner:</p>
           <Row>
             <Col className="Profile_box" xs={6} md={4}>
               <img
