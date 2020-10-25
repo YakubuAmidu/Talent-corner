@@ -20,6 +20,27 @@ class App extends Component {
             </Col>
           </Row>
         </div>
+
+        <div className="Gold_background">
+          <Row className="Logo_box">
+            <Col className="Logo_box_one">
+              <p>Logo</p>
+              <p>GRAPHIC DESIGNER</p>
+            </Col>
+            <Col className="Logo_box_one">
+              <p>Logo</p>
+              <p>GRAPHIC DESIGNER</p>
+            </Col>
+            <Col className="Logo_box_one">
+              <p>Logo</p>
+              <p>GRAPHIC DESIGNER</p>
+            </Col>
+            <Col className="Logo_box_one">
+              <p>Logo</p>
+              <p>GRAPHIC DESIGNER</p>
+            </Col>
+          </Row>
+        </div>
       </div>
     );
   }
