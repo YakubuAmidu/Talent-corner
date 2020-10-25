@@ -50,7 +50,7 @@ class App extends Component {
           <h1>+ ABOUT</h1>
           <p>The people behind Creative Corner:</p>
           <Row>
-            <Col className="Profile_box">
+            <Col className="Profile_box" xs={6} md={4}>
               <img
                 src={profile_one}
                 alt="profile-img"
@@ -59,7 +59,7 @@ class App extends Component {
               <p className="Name_title">Name</p>
               <p className="Job_title">Job</p>
             </Col>
-            <Col className="Profile_box">
+            <Col className="Profile_box" xs={6} md={4}>
               <img
                 src={profile_two}
                 alt="profile-img"
@@ -68,7 +68,7 @@ class App extends Component {
               <p className="Name_title">Name</p>
               <p className="Job_title">Job</p>
             </Col>
-            <Col className="Profile_box">
+            <Col className="Profile_box" xs={6}>
               <img
                 src={profile_three}
                 alt="profile-img"
@@ -77,7 +77,7 @@ class App extends Component {
               <p className="Name_title">Name</p>
               <p className="Job_title">Job</p>
             </Col>
-            <Col className="Profile_box">
+            <Col className="Profile_box" xs={6}>
               <img
                 src={profile_four}
                 alt="profile-img"
@@ -88,13 +88,13 @@ class App extends Component {
             </Col>
           </Row>
           <Row>
-            <Col>
-              <p>
+            <Col className="Description_main" xs={12}>
+              <p className="Description_paragraph">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
               </p>
-              <p>
+              <p className="Description_paragraph">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
