@@ -9,7 +9,7 @@ ReactDOM.render(
   <Router history={createBrowserHistory()}>
     <Switch>
       <Route exact path="/" component={App} />
-      <Route exact path="/Gold" component={Gold} />
+      <Route exact path="/gold" component={Gold} />
     </Switch>
   </Router>,
   document.getElementById("root")

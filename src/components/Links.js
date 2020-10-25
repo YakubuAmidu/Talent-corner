@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import ".././components/Sass.scss";
+import "./Sass.scss";
 import { Link } from "react-router-dom";
 import { Navbar, Nav } from "react-bootstrap";
 
@@ -20,7 +20,7 @@ class Links extends Component {
                 </Link>
               </Nav.Link>
               <Nav.Link href="#home">
-                <Link to="#GoldScreen" className="Links_one">
+                <Link to="/" className="Links_one">
                   Find Talent
                 </Link>
               </Nav.Link>
