@@ -87,6 +87,20 @@ class App extends Component {
               <p className="Job_title">Job</p>
             </Col>
           </Row>
+          <Row>
+            <Col>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              </p>
+            </Col>
+          </Row>
         </div>
       </div>
     );
