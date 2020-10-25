@@ -50,7 +50,7 @@ class App extends Component {
           <h1 className="About">+ ABOUT</h1>
           <p className="People">The people behind Creative Corner:</p>
           <Row>
-            <Col className="Profile_box" xs={6} md={4}>
+            <Col className="Profile_box" xs={6}>
               <img
                 src={profile_one}
                 alt="profile-img"
@@ -59,7 +59,7 @@ class App extends Component {
               <p className="Name_title">Name</p>
               <p className="Job_title">Job</p>
             </Col>
-            <Col className="Profile_box" xs={6} md={4}>
+            <Col className="Profile_box" xs={6}>
               <img
                 src={profile_two}
                 alt="profile-img"
@@ -114,7 +114,7 @@ class App extends Component {
         </div>
 
         <div className="Contact_section">
-          <h1 className="About">+ ABOUT</h1>
+          <h1 className="About">+ CONTACT</h1>
           <p className="Online">Over the phone or online</p>
 
           <div className="Contact_address">
@@ -148,6 +148,7 @@ class App extends Component {
                     <Form.Control required type="phone" placeholder="Name" />
                     <Form.Label>Enter Your Message</Form.Label>
                     <Form.Control as="textarea" rows={4} />
+                    <Button className="Btn btn-dark Submit">submit</Button>
                   </Form>
                 </div>
               </Col>

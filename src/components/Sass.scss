@@ -95,8 +95,8 @@
 }
 
 .Profile_image {
-  width: 140px;
-  height: 140px;
+  width: 150px;
+  height: 150px;
 }
 
 .Name_title {
@@ -117,8 +117,8 @@
 }
 
 .Contact_section {
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .Online {
@@ -136,4 +136,11 @@
 .Location {
   font-family: "Zilla Slab", serif;
   font-weight: bold;
+  width: 200px;
+}
+
+.Submit {
+  margin-top: 4px;
+  padding-top: 3px;
+  padding-bottom: 3px;
 }
