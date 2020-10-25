@@ -88,12 +88,14 @@ class App extends Component {
             </Col>
           </Row>
           <Row>
-            <Col className="Description_main" xs={12}>
+            <Col className="Description_main">
               <p className="Description_paragraph">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
               </p>
+            </Col>
+            <Col className="Description_main">
               <p className="Description_paragraph">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
