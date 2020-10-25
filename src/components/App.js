@@ -16,13 +16,13 @@ class App extends Component {
             src={background}
             alt="background-img"
           />
-          <div className="Background_title">
-            <div>FRESH</div>
-            <div>TALENT +</div>
-            <div>TOP</div>
-            <div>EMPLOYERS</div>
+          <div className="Background_titles">
+            <div className="Fresh">FRESH</div>
+            <div className="Talent">TALENT +</div>
+            <div className="Top">TOP</div>
+            <div className="Employers">EMPLOYERS</div>
           </div>
-          <div>create your future with us</div>
+          <div className="Create">create your future with us</div>
           <span className="Link_buttons">
             <Row>
               <Col>
