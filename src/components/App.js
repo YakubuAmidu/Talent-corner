@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import { Row, Col, Button, Image } from "react-bootstrap";
 import profile_one from "../assets/profile_one.png";
+import profile_two from "../assets/profile_two.png";
+import profile_three from "../assets/profile_three.png";
+import profile_four from "../assets/profile_four.png";
 import Links from "./Links";
 
 class App extends Component {
@@ -53,27 +56,35 @@ class App extends Component {
                 alt="profile-img"
                 className="Profile_image"
               />
+              <p className="Name_title">Name</p>
+              <p className="Job_title">Job</p>
             </Col>
             <Col className="Profile_box">
               <img
-                src={profile_one}
+                src={profile_two}
                 alt="profile-img"
                 className="Profile_image"
               />
+              <p className="Name_title">Name</p>
+              <p className="Job_title">Job</p>
             </Col>
             <Col className="Profile_box">
               <img
-                src={profile_one}
+                src={profile_three}
                 alt="profile-img"
                 className="Profile_image"
               />
+              <p className="Name_title">Name</p>
+              <p className="Job_title">Job</p>
             </Col>
             <Col className="Profile_box">
               <img
-                src={profile_one}
+                src={profile_four}
                 alt="profile-img"
                 className="Profile_image"
               />
+              <p className="Name_title">Name</p>
+              <p className="Job_title">Job</p>
             </Col>
           </Row>
         </div>
