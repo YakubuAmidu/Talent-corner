@@ -32,6 +32,36 @@ class App extends Component {
             </span>
           </div>
         </div>
+
+        <div className="Gold_background">
+          <div className="Logos">
+            <i class="far fa-pencil-alt" className="Logp_pencil">
+              Hello
+            </i>
+            <p className="Description">GRAPHIC DESIGN</p>
+          </div>
+
+          <div className="Logos">
+            <i class="far fa-pencil-alt" className="Logp_pencil">
+              Hello
+            </i>
+            <p className="Description">GRAPHIC DESIGN</p>
+          </div>
+
+          <div className="Logos">
+            <i class="far fa-pencil-alt" className="Logp_pencil">
+              Hello
+            </i>
+            <p className="Description">GRAPHIC DESIGN</p>
+          </div>
+
+          <div className="Logos">
+            <i class="far fa-pencil-alt" className="Logp_pencil">
+              Hello
+            </i>
+            <p className="Description">GRAPHIC DESIGN</p>
+          </div>
+        </div>
       </div>
     );
   }
