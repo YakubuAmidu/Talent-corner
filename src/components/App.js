@@ -25,7 +25,7 @@ class App extends Component {
             <span className="Link_buttons">
               <Row>
                 <Col>
-                  <Button className="btn btn-dark">FIND TALENT</Button>
+                  <Button className="btn btn-dark mr-2">FIND TALENT</Button>
                   <Button className="btn btn-dark">FIND JOB</Button>
                 </Col>
               </Row>
