@@ -21,16 +21,16 @@ class App extends Component {
             <div className="Talent">TALENT +</div>
             <div className="Top">TOP</div>
             <div className="Employers">EMPLOYERS</div>
+            <div className="Create">create your future with us</div>
+            <span className="Link_buttons">
+              <Row>
+                <Col>
+                  <Button className="btn btn-dark">FIND TALENT</Button>
+                  <Button className="btn btn-dark">FIND JOB</Button>
+                </Col>
+              </Row>
+            </span>
           </div>
-          <div className="Create">create your future with us</div>
-          <span className="Link_buttons">
-            <Row>
-              <Col>
-                <Button className="btn btn-dark">FIND TALENT</Button>
-                <Button className="btn btn-dark">FIND JOB</Button>
-              </Col>
-            </Row>
-          </span>
         </div>
       </div>
     );
