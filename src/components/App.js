@@ -15,7 +15,7 @@ class App extends Component {
           <p className="Create">create your future with us</p>
           <Row>
             <Col>
-              <Button variant="outline-dark">FIND TALENT</Button>
+              <Button variant="outline-dark mr-4">FIND TALENT</Button>
               <Button variant="outline-dark">FIND JOB</Button>
             </Col>
           </Row>
