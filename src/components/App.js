@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Row, Col, Button, Image } from "react-bootstrap";
+import { Row, Col, Button, Form } from "react-bootstrap";
 import profile_one from "../assets/profile_one.png";
 import profile_two from "../assets/profile_two.png";
 import profile_three from "../assets/profile_three.png";
@@ -93,6 +93,10 @@ class App extends Component {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
             </Col>
             <Col className="Description_main">
@@ -100,9 +104,51 @@ class App extends Component {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
             </Col>
           </Row>
+        </div>
+
+        <div className="Contact_section">
+          <h1 className="About">+ ABOUT</h1>
+          <p className="People">Over the phon or online</p>
+
+          <div className="Contact_address">
+            <Row>
+              <Col className="Mail">
+                <div className="Mail_one">
+                  <p>Icon intfo@mysite.com</p>
+                  <p>Icon 515-555-444</p>
+                  <br />
+                  <p>500 Terry Francois Street San Francisco, CA 94158</p>
+                  <br />
+                  <p>Map satelite</p>
+                </div>
+              </Col>
+              <Col className="Message">
+                <div className="Message_one">
+                  <p>
+                    If you're talented and looking for a job, contact us here.
+                  </p>
+                  <br />
+                  <Form>
+                    <Form.Label>Enter Your Name</Form.Label>
+                    <Form.Control required type="text" placeholder="Name" />
+                    <Form.Label>Enter Your Email</Form.Label>
+                    <Form.Control required type="email" placeholder="Name" />
+                    <Form.Label>Enter Your Phone</Form.Label>
+                    <Form.Control required type="phone" placeholder="Name" />
+                    <Form.Label>Enter Your Message</Form.Label>
+                    <Form.Control as="textarea" rows={4} />
+                  </Form>
+                </div>
+              </Col>
+            </Row>
+          </div>
         </div>
       </div>
     );
