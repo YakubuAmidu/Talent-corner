@@ -128,7 +128,7 @@ class App extends Component {
                     500 Terry Francois Street San Francisco, CA 94158
                   </p>
                   <br />
-                  <p className="Map">Map satelite</p>
+                  <p className="Map">Google maps</p>
                   <br />
                 </div>
               </Col>
