@@ -18,7 +18,7 @@ class App extends Component {
           <h1 className="Header_title_one">TALENT</h1>
           <h1 className="Header_title_one">TOP</h1>
           <h1 className="Header_title_one">EMPLOYERS</h1>
-          <p className="Create">create your future with us</p>
+          <p className="Header_message_one">create your future with us</p>
           <Row>
             <Col>
               <Button variant="outline-dark mr-4">
@@ -35,7 +35,7 @@ class App extends Component {
           </Row>
         </div>
 
-        <div className="Gold_background">
+        <div className="Gold_section">
           <Row className="Logo_box">
             <Col className="Logo_box_one">
               <p className="Logo_image">
@@ -65,7 +65,7 @@ class App extends Component {
         </div>
 
         <div className="About_section">
-          <h1 className="Header_title_two">+ ABOUT</h1>
+          <h1 className="Header_title_three">+ ABOUT</h1>
           <p className="People">The people behind Creative Corner:</p>
           <Row>
             <Col className="Profile_box" xs={6}>

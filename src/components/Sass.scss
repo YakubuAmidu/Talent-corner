@@ -42,7 +42,7 @@ $padding-right: 15px;
   color: $color-white;
 }
 
-.Create {
+.Header_message_one {
   font-family: "Lobster", cursive;
   word-spacing: 5px;
   font-size: 25px;
@@ -59,18 +59,7 @@ $padding-right: 15px;
   color: $color-white;
 }
 
-.Links_one {
-  color: $color-white;
-}
-
-.Links_one:hover {
-  text-decoration: none;
-  background-color: $background-color;
-  border-radius: 5px;
-  color: gray;
-}
-
-.Gold_background {
+.Gold_section {
   background-color: gold;
   display: flex;
   justify-content: center;
@@ -81,7 +70,7 @@ $padding-right: 15px;
   padding-right: $padding-right;
 }
 
-.Logo_box {
+.Logo_box_one {
   text-align: $text-align;
 }
 
@@ -95,13 +84,24 @@ $padding-right: 15px;
   font-size: 10px;
 }
 
+.Links_one {
+  color: $color-white;
+}
+
+.Links_one:hover {
+  text-decoration: none;
+  background-color: $background-color;
+  border-radius: 5px;
+  color: gray;
+}
+
 .About_section {
   padding-top: 30px;
   padding-left: $padding-left;
   padding-right: $padding-right;
 }
 
-.Header_title_two {
+.Header_title_three {
   font-family: $font-family-two;
   font-weight: $font-weight;
 }
