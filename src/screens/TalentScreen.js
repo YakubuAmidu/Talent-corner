@@ -3,6 +3,7 @@ import "../components/Sass.scss";
 import Links from "../components/Links";
 import Profile from ".././assets/profile_three.png";
 import { Col, Row, Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const TalentScreen = () => {
   return (
@@ -17,7 +18,7 @@ const TalentScreen = () => {
         <img src={Profile} alt="profile-img" className="Profile_image_one" />
 
         <Row>
-          <Col className="Talent_header_one">
+          <Col className="Talent_header_one" sm={12}>
             <p className="Talent_paragraph_one">
               I'm a paragraph. Click here to add your own text and edit me. It’s
               easy. Just click “Edit Text” or double click me to add your own
@@ -39,7 +40,9 @@ const TalentScreen = () => {
               find what you're looking for.
             </p>
             <hr />
-            <Button className="btn btn-warning Btn_warning">CONTACT</Button>
+            <Link to="/">
+              <Button className="btn btn-warning Btn_warning">CONTACT</Button>
+            </Link>
           </Col>
         </Row>
       </div>

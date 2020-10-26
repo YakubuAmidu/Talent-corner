@@ -21,12 +21,12 @@ class Links extends Component {
               </Nav.Link>
               <Nav.Link href="#home">
                 <Link to="/TalentScreen" className="Links_one">
-                  Find Talent
+                  FIND TALENT
                 </Link>
               </Nav.Link>
               <Nav.Link href="#home">
                 <Link to="#" className="Links_one">
-                  Find Job
+                  FIND JOB
                 </Link>
               </Nav.Link>
               <Nav.Link href="#link">
