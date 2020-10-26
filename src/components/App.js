@@ -10,7 +10,7 @@ import Links from "./Links";
 class App extends Component {
   render() {
     return (
-      <div>
+      <div className="App">
         <Links />
         <div className="Background_image">
           <h1 className="Fresh">FRESH</h1>
@@ -157,7 +157,7 @@ class App extends Component {
                     <Form.Control required type="phone" placeholder="Name" />
                     <Form.Label>Enter Your Message</Form.Label>
                     <Form.Control as="textarea" rows={4} />
-                    <Button className="Btn btn-dark Submit">submit</Button>
+                    <Button className="Btn btn-dark submit">submit</Button>
                   </Form>
                 </div>
               </Col>

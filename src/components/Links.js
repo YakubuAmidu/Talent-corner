@@ -11,14 +11,14 @@ class Links extends Component {
       <div className="Navbar">
         <Navbar bg="dark" expand="md">
           <Navbar.Brand href="#home">
-            <strong className="Talent_one">Talent</strong> Corner
+            <strong className="Talent_one">TALENT</strong> CORNER
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
               <Nav.Link href="#home">
                 <Link to="/" className="Links_one">
-                  Home
+                  HOME
                 </Link>
               </Nav.Link>
               <Nav.Link href="#home">
