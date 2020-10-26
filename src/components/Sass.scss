@@ -106,7 +106,7 @@ $padding-right: 15px;
   font-weight: $font-weight;
 }
 
-.People {
+.Header_description_one {
   font-family: $font-family-two;
   font-weight: $font-weight;
   margin-left: 25px;
@@ -123,18 +123,18 @@ $padding-right: 15px;
   height: 150px;
 }
 
-.Name_title {
+.Profile_name {
   font-family: $font-family-two;
   font-weight: $font-weight;
   margin-bottom: 2px;
 }
 
-.Job_title {
+.Job_description {
   font-family: $font-family-two;
   font-weight: $font-weight;
 }
 
-.Description_paragraph {
+.Paragraph_message_main {
   word-spacing: normal;
   text-align: justify;
   font-size: 12px;
@@ -148,19 +148,15 @@ $padding-right: 15px;
   padding-top: 30px;
 }
 
-.Online {
+.Mail_address_one {
   font-family: $font-family-two;
 }
 
-.Icon {
+.Contact_number {
   font-family: $font-family-two;
 }
 
-.Number {
-  font-family: $font-family-two;
-}
-
-.Location {
+.Location_address {
   font-family: $font-family-two;
   font-weight: $font-weight;
   width: 200px;

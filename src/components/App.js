@@ -66,7 +66,9 @@ class App extends Component {
 
         <div className="About_section">
           <h1 className="Header_title_three">+ ABOUT</h1>
-          <p className="People">The people behind Creative Corner:</p>
+          <p className="Header_description_one">
+            The people behind Creative Corner:
+          </p>
           <Row>
             <Col className="Profile_box" xs={6}>
               <img
@@ -74,8 +76,8 @@ class App extends Component {
                 alt="profile-img"
                 className="Profile_image"
               />
-              <p className="Name_title">Name</p>
-              <p className="Job_title">Job</p>
+              <p className="Profile_name">Name</p>
+              <p className="Job_description">Job</p>
             </Col>
             <Col className="Profile_box" xs={6}>
               <img
@@ -83,8 +85,8 @@ class App extends Component {
                 alt="profile-img"
                 className="Profile_image"
               />
-              <p className="Name_title">Name</p>
-              <p className="Job_title">Job</p>
+              <p className="Profile_name">Name</p>
+              <p className="Job_description">Job</p>
             </Col>
             <Col className="Profile_box" xs={6}>
               <img
@@ -92,8 +94,8 @@ class App extends Component {
                 alt="profile-img"
                 className="Profile_image"
               />
-              <p className="Name_title">Name</p>
-              <p className="Job_title">Job</p>
+              <p className="Profile_name">Name</p>
+              <p className="Job_description">Job</p>
             </Col>
             <Col className="Profile_box" xs={6}>
               <img
@@ -101,13 +103,13 @@ class App extends Component {
                 alt="profile-img"
                 className="Profile_image"
               />
-              <p className="Name_title">Name</p>
-              <p className="Job_title">Job</p>
+              <p className="Profile_name">Name</p>
+              <p className="Job_description">Job</p>
             </Col>
           </Row>
           <Row>
-            <Col className="Description_main">
-              <p className="Description_paragraph">
+            <Col className="Paragraph_message">
+              <p className="Paragraph_message_main">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -117,8 +119,8 @@ class App extends Component {
                 sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
             </Col>
-            <Col className="Description_main">
-              <p className="Description_paragraph">
+            <Col className="Paragraph_message">
+              <p className="Paragraph_message_main">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -132,21 +134,21 @@ class App extends Component {
         </div>
 
         <div className="Contact_section">
-          <h1 className="About">+ CONTACT</h1>
-          <p className="Online">Over the phone or online</p>
+          <h1 className="Header_title_three">+ CONTACT</h1>
+          <p className="Header_description_one">Over the phone or online</p>
 
           <div className="Contact_address">
             <Row>
-              <Col className="Mail" md={6}>
-                <div className="Mail_one">
-                  <p className="Icon">Icon intfo@mysite.com</p>
-                  <p className="Number">Icon 515-555-444</p>
+              <Col className="Mail_address" md={6}>
+                <div className="Mail_address_main">
+                  <p className="Mail_address_one">Icon intfo@mysite.com</p>
+                  <p className="Contact_number">Icon 515-555-444</p>
                   <br />
-                  <p className="Location">
+                  <p className="Location_address">
                     500 Terry Francois Street San Francisco, CA 94158
                   </p>
                   <br />
-                  <p className="Map">Google maps</p>
+                  <p className="Location_map">Google maps</p>
                   <br />
                 </div>
               </Col>
