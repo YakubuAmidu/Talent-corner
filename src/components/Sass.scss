@@ -215,6 +215,7 @@ $padding-right: 15px;
   margin-left: 15px;
   font-size: 10px;
   font-weight: $font-weight;
+  margin-bottom: 15px;
 }
 
 .Job_titles {
@@ -230,6 +231,8 @@ $padding-right: 15px;
 
 .Sponsors_screen {
   background-color: gray;
+  width: 100%;
+  text-align: center;
   margin-top: 30px;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -237,6 +240,21 @@ $padding-right: 15px;
   padding-right: $padding-right;
 }
 
-.Sponsors_messages {
+.Sponsor_message {
+  text-align: justify;
+  display: inline-block;
   color: $color-white;
+}
+
+.Icon_logos {
+  border-radius: 100%;
+  border-style: solid $color-white;
+  border-width: thin;
+  padding: 15px;
+}
+
+.Sponsor_image {
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
 }

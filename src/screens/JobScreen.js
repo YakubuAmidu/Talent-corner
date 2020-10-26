@@ -1,6 +1,10 @@
 import React from "react";
 import profile from "../assets/typing.png";
 import Links from ".././components/Links";
+import sponsor_one from ".././assets/sponsor_one.png";
+import sponsor_two from ".././assets/sponsor_two.png";
+import sponsor_three from ".././assets/sponsor_three.png";
+import sponsor_four from ".././assets/sponsor_four.png";
 import { Col, Row, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
@@ -9,7 +13,7 @@ const JobScreen = () => {
     <div className="Job_screen">
       <Links />
       <div className="Job_titles">
-        <h2 className="Job_message_one">+ FIND A JOB</h2>
+        <h1 className="Job_message_one">+ FIND A JOB</h1>
         <p className="Job_message_two">Put your passion to work</p>
       </div>
 
@@ -47,17 +51,23 @@ const JobScreen = () => {
       </div>
 
       <div className="Sponsors_screen">
-        <p className="Sponsors_messages">
-          Our clients are out partners, that's why
-          <br />
-          we choose them carefully:
+        <p className="Sponsor_message">
+          Our clients are out partners, that's why we choose them carefully:
         </p>
 
         <Row className="Sponsors_logos">
-          <Col>Logos</Col>
-          <Col>Logos</Col>
-          <Col>Logos</Col>
-          <Col>Logos</Col>
+          <Col className="Icon_logos">
+            <img src={sponsor_one} alt="img" className="Sponsor_image" />
+          </Col>
+          <Col className="Icon_logos">
+            <img src={sponsor_two} alt="img" className="Sponsor_image" />
+          </Col>
+          <Col className="Icon_logos">
+            <img src={sponsor_three} alt="img" className="Sponsor_image" />
+          </Col>
+          <Col className="Icon_logos">
+            <img src={sponsor_four} alt="img" className="Sponsor_image" />
+          </Col>
         </Row>
       </div>
     </div>
