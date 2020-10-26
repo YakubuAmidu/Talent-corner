@@ -174,3 +174,27 @@ $padding-right: 15px;
   width: 100%;
   height: 70vh;
 }
+
+.Talent_paragraph_one {
+  padding-top: 30px;
+  font-size: 10px;
+  text-align: justify;
+  padding-right: $padding-right;
+  padding-left: $padding-left;
+}
+
+.Talent_paragraph_two {
+  text-align: justify;
+  font-size: 10px;
+  padding-right: $padding-right;
+  padding-left: $padding-left;
+}
+
+.Talent_paragraph_three {
+  text-align: justify;
+  padding-top: 30px;
+  font-weight: $font-weight;
+  font-family: "Arvo", serif;
+  padding-right: $padding-right;
+  padding-left: $padding-left;
+}
