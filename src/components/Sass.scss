@@ -18,25 +18,25 @@ $padding-right: 15px;
   color: $color-white;
 }
 
-.Fresh {
+.Header_title_one {
   font-family: "$font-family-one", serif;
   font-weight: $font-weight;
   color: $color-white;
 }
 
-.Talent {
+.Header_title_one {
   font-family: "$font-family-one", serif;
   font-weight: $font-weight;
   color: $color-white;
 }
 
-.Top {
+.Header_title_one {
   font-family: "$font-family-one", serif;
   font-weight: $font-weight;
   color: $color-white;
 }
 
-.Employers {
+.Header_title_one {
   font-family: "$font-family-one", serif;
   font-weight: $font-weight;
   color: $color-white;
@@ -101,7 +101,7 @@ $padding-right: 15px;
   padding-right: $padding-right;
 }
 
-.About {
+.Header_title_two {
   font-family: $font-family-two;
   font-weight: $font-weight;
 }
@@ -109,6 +109,7 @@ $padding-right: 15px;
 .People {
   font-family: $font-family-two;
   font-weight: $font-weight;
+  margin-left: 25px;
 }
 
 .Profile_box {
@@ -232,6 +233,8 @@ $padding-right: 15px;
   background-color: gold;
   padding-top: 15px;
   padding-bottom: 10px;
+  padding-left: $padding-left;
+  padding-right: $padding-right;
 }
 
 .Job_image_one {
@@ -239,8 +242,16 @@ $padding-right: 15px;
   height: 70vh;
 }
 
+.Job_message_one {
+  font-family: $font-family-two;
+  font-weight: $font-weight;
+}
+
 .Job_message_two {
   margin-left: 34px;
+  font-family: $font-family-two;
+  font-weight: $font-weight;
+  margin-left: 25px;
 }
 
 .Sponsors_screen {

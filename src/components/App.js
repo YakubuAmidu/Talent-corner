@@ -14,10 +14,10 @@ class App extends Component {
       <div className="App">
         <Links />
         <div className="Background_image">
-          <h1 className="Fresh">FRESH</h1>
-          <h1 className="Talent">TALENT</h1>
-          <h1 className="Top">TOP</h1>
-          <h1 className="Employers">EMPLOYERS</h1>
+          <h1 className="Header_title_one">FRESH</h1>
+          <h1 className="Header_title_one">TALENT</h1>
+          <h1 className="Header_title_one">TOP</h1>
+          <h1 className="Header_title_one">EMPLOYERS</h1>
           <p className="Create">create your future with us</p>
           <Row>
             <Col>
@@ -65,7 +65,7 @@ class App extends Component {
         </div>
 
         <div className="About_section">
-          <h1 className="About">+ ABOUT</h1>
+          <h1 className="Header_title_two">+ ABOUT</h1>
           <p className="People">The people behind Creative Corner:</p>
           <Row>
             <Col className="Profile_box" xs={6}>
