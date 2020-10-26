@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import JobScreen from ".././screens/JobScreen";
+import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
 import "./Sass.scss";
 import { Link } from "react-router-dom";
 import { Navbar, Nav } from "react-bootstrap";
@@ -32,7 +33,17 @@ class Links extends Component {
               </Nav.Link>
               <Nav.Link href="#link">
                 <Link to="#" className="Links_one">
-                  Link
+                  <FaFacebookF />
+                </Link>
+              </Nav.Link>
+              <Nav.Link href="#link">
+                <Link to="#" className="Links_one">
+                  <FaTwitter />
+                </Link>
+              </Nav.Link>
+              <Nav.Link href="#link">
+                <Link to="#" className="Links_one">
+                  <FaInstagram />
                 </Link>
               </Nav.Link>
             </Nav>
