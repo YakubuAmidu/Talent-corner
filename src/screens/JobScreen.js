@@ -40,9 +40,24 @@ const JobScreen = () => {
             </p>
             <hr />
             <Link to="/">
-              <Button className="btn btn-warning Btn_warning">CONTACT</Button>
+              <Button className="btn btn-warning Btn_warning">APPLY NOW</Button>
             </Link>
           </Col>
+        </Row>
+      </div>
+
+      <div className="Sponsors_screen">
+        <p className="Sponsors_messages">
+          Our clients are out partners, that's why
+          <br />
+          we choose them carefully:
+        </p>
+
+        <Row className="Sponsors_logos">
+          <Col>Logos</Col>
+          <Col>Logos</Col>
+          <Col>Logos</Col>
+          <Col>Logos</Col>
         </Row>
       </div>
     </div>

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Row, Col, Button, Form } from "react-bootstrap";
+import { FaPencilAlt, FaScroll, FaLightbulb, FaBox } from "react-icons/fa";
 import profile_one from "../assets/profile_one.png";
 import profile_two from "../assets/profile_two.png";
 import profile_three from "../assets/profile_three.png";
@@ -28,19 +29,27 @@ class App extends Component {
         <div className="Gold_background">
           <Row className="Logo_box">
             <Col className="Logo_box_one">
-              <p className="Logo_image">Logo</p>
+              <p className="Logo_image">
+                <FaPencilAlt />
+              </p>
               <p className="Logo_description">GRAPHIC DESIGNERS</p>
             </Col>
             <Col className="Logo_box_one">
-              <p className="Logo_image">Logo</p>
+              <p className="Logo_image">
+                <FaScroll />
+              </p>
               <p className="Logo_description">COPYWRITERS</p>
             </Col>
             <Col className="Logo_box_one">
-              <p className="Logo_image">Logo</p>
+              <p className="Logo_image">
+                <FaLightbulb />
+              </p>
               <p className="Logo_description">CREATIVE DIRECTORS</p>
             </Col>
             <Col className="Logo_box_one">
-              <p className="Logo_image">Logo</p>
+              <p className="Logo_image">
+                <FaBox />
+              </p>
               <p className="Logo_description">CLIENT MANAGERS</p>
             </Col>
           </Row>
