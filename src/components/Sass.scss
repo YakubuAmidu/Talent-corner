@@ -1,5 +1,6 @@
 $text-align: center;
-$font-family: "Piazzolla", serif;
+$font-family-one: "Piazzolla", serif;
+$font-family-two: "Zilla Slab", serif;
 $background-color: #fff;
 $font-weight: bold;
 $color-white: #fff;
@@ -14,25 +15,25 @@ $padding-right: 15px;
 }
 
 .Fresh {
-  font-family: $font-family;
+  font-family: $font-family-one;
   font-weight: $font-weight;
   color: $color-white;
 }
 
 .Talent {
-  font-family: "$font-family", serif;
+  font-family: "$font-family-one", serif;
   font-weight: $font-weight;
   color: $color-white;
 }
 
 .Top {
-  font-family: "$font-family", serif;
+  font-family: "$font-family-one", serif;
   font-weight: $font-weight;
   color: $color-white;
 }
 
 .Employers {
-  font-family: "$font-family", serif;
+  font-family: "$font-family-one", serif;
   font-weight: $font-weight;
   color: $color-white;
 }
@@ -87,12 +88,12 @@ $padding-right: 15px;
 }
 
 .About {
-  font-family: "Zilla Slab", serif;
+  font-family: $font-family-two;
   font-weight: $font-weight;
 }
 
 .People {
-  font-family: "Zilla Slab", serif;
+  font-family: $font-family-two;
   font-weight: $font-weight;
 }
 
@@ -108,13 +109,13 @@ $padding-right: 15px;
 }
 
 .Name_title {
-  font-family: "Zilla Slab", serif;
+  font-family: $font-family-two;
   font-weight: $font-weight;
   margin-bottom: 2px;
 }
 
 .Job_title {
-  font-family: "Zilla Slab", serif;
+  font-family: $font-family-two;
   font-weight: $font-weight;
 }
 
@@ -133,19 +134,19 @@ $padding-right: 15px;
 }
 
 .Online {
-  font-family: "Zilla Slab", serif;
+  font-family: $font-family-two;
 }
 
 .Icon {
-  font-family: "Zilla Slab", serif;
+  font-family: $font-family-two;
 }
 
 .Number {
-  font-family: "Zilla Slab", serif;
+  font-family: $font-family-two;
 }
 
 .Location {
-  font-family: "Zilla Slab", serif;
+  font-family: $font-family-two;
   font-weight: $font-weight;
   width: 200px;
 }
@@ -158,4 +159,14 @@ $padding-right: 15px;
 
 .Talent_screen {
   background-color: gold;
+  padding-top: 30px;
+  padding-left: $padding-left;
+  padding-right: $padding-right;
+  padding-bottom: 20px;
+}
+
+.Find {
+  font-family: $font-family-two;
+  font-size: 25px;
+  font-weight: bold;
 }
