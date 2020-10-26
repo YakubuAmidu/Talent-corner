@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./components/App";
-import Gold from "./components/Gold";
 import TalentScreen from "./screens/TalentScreen";
 import { createBrowserHistory } from "history";
 import { Router, Switch, Route } from "react-router-dom";
