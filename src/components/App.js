@@ -22,10 +22,14 @@ class App extends Component {
           <Row>
             <Col>
               <Button variant="outline-dark mr-4">
-                <Link to="/TalentScreen">FIND TALENT</Link>
+                <Link to="/TalentScreen" className="Button_one">
+                  FIND TALENT
+                </Link>
               </Button>
               <Button variant="outline-dark">
-                <Link to="/JobScreen">FIND JOB</Link>
+                <Link to="/JobScreen" className="Button_one">
+                  FIND JOB
+                </Link>
               </Button>
             </Col>
           </Row>

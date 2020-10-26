@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import JobScreen from ".././screens/JobScreen";
 import "./Sass.scss";
 import { Link } from "react-router-dom";
 import { Navbar, Nav } from "react-bootstrap";

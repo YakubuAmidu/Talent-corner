@@ -19,7 +19,7 @@ $padding-right: 15px;
 }
 
 .Fresh {
-  font-family: $font-family-one;
+  font-family: "$font-family-one", serif;
   font-weight: $font-weight;
   color: $color-white;
 }
@@ -46,6 +46,15 @@ $padding-right: 15px;
   font-family: "Lobster", cursive;
   word-spacing: 5px;
   font-size: 25px;
+  color: $color-white;
+}
+
+.Button_one {
+  font-size: 12px;
+}
+
+.Button_one:hover {
+  text-decoration: none;
   color: $color-white;
 }
 
