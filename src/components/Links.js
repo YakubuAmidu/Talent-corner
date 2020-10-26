@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import JobScreen from ".././screens/JobScreen";
 import "./Sass.scss";
 import { Link } from "react-router-dom";
 import { Navbar, Nav } from "react-bootstrap";
@@ -25,7 +26,7 @@ class Links extends Component {
                 </Link>
               </Nav.Link>
               <Nav.Link href="#home">
-                <Link to="#" className="Links_one">
+                <Link to="/JobScreen" className="Links_one">
                   FIND JOB
                 </Link>
               </Nav.Link>
