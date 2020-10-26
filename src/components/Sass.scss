@@ -1,48 +1,56 @@
+$text-align: center;
+$font-family: "Piazzolla", serif;
+$background-color: #fff;
+$font-weight: bold;
+$color-white: #fff;
+$padding-left: 15px;
+$padding-right: 15px;
+
 .Background_image {
   background-image: url(".././assets/background.png");
-  text-align: center;
+  text-align: $text-align;
   padding-top: 15px;
   padding-bottom: 15px;
 }
 
 .Fresh {
-  font-family: "Piazzolla", serif;
-  font-weight: bold;
-  color: #fff;
+  font-family: $font-family;
+  font-weight: $font-weight;
+  color: $color-white;
 }
 
 .Talent {
-  font-family: "Piazzolla", serif;
-  font-weight: bold;
-  color: #fff;
+  font-family: "$font-family", serif;
+  font-weight: $font-weight;
+  color: $color-white;
 }
 
 .Top {
-  font-family: "Piazzolla", serif;
-  font-weight: bold;
-  color: #fff;
+  font-family: "$font-family", serif;
+  font-weight: $font-weight;
+  color: $color-white;
 }
 
 .Employers {
-  font-family: "Piazzolla", serif;
-  font-weight: bold;
-  color: #fff;
+  font-family: "$font-family", serif;
+  font-weight: $font-weight;
+  color: $color-white;
 }
 
 .Create {
   font-family: "Lobster", cursive;
   word-spacing: 5px;
   font-size: 25px;
-  color: #fff;
+  color: $color-white;
 }
 
 .Links_one {
-  color: #fff;
+  color: $color-white;
 }
 
 .Links_one:hover {
   text-decoration: none;
-  background-color: #fff;
+  background-color: $background-color;
   border-radius: 5px;
   color: gray;
 }
@@ -54,16 +62,16 @@
   align-items: center;
   padding-top: 40px;
   padding-bottom: 15px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: $padding-left;
+  padding-right: $padding-right;
 }
 
 .Logo_box {
-  text-align: center;
+  text-align: $text-align;
 }
 
 .Logo_image {
-  background-color: #fff;
+  background-color: $background-color;
   padding: 10px;
   border-radius: 100px;
 }
@@ -74,24 +82,24 @@
 
 .About_section {
   padding-top: 30px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: $padding-left;
+  padding-right: $padding-right;
 }
 
 .About {
   font-family: "Zilla Slab", serif;
-  font-weight: bold;
+  font-weight: $font-weight;
 }
 
 .People {
   font-family: "Zilla Slab", serif;
-  font-weight: bold;
+  font-weight: $font-weight;
 }
 
 .Profile_box {
   text-align: center;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: $padding-left;
+  padding-right: $padding-right;
 }
 
 .Profile_image {
@@ -101,13 +109,13 @@
 
 .Name_title {
   font-family: "Zilla Slab", serif;
-  font-weight: bold;
+  font-weight: $font-weight;
   margin-bottom: 2px;
 }
 
 .Job_title {
   font-family: "Zilla Slab", serif;
-  font-weight: bold;
+  font-weight: $font-weight;
 }
 
 .Description_paragraph {
@@ -118,8 +126,8 @@
 
 .Contact_section {
   background-color: #000;
-  color: #fff;
-  padding-left: 25px;
+  color: $color-white;
+  padding-left: $padding-left;
   padding-right: 25px;
   padding-top: 30px;
 }
@@ -138,7 +146,7 @@
 
 .Location {
   font-family: "Zilla Slab", serif;
-  font-weight: bold;
+  font-weight: $font-weight;
   width: 200px;
 }
 
