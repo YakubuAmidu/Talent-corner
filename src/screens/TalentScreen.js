@@ -40,7 +40,7 @@ const TalentScreen = () => {
               find what you're looking for.
             </p>
             <hr />
-            <Link to="/">
+            <Link to="/Contact_section">
               <Button className="btn btn-warning Btn_warning">CONTACT</Button>
             </Link>
           </Col>
