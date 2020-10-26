@@ -1,6 +1,7 @@
 import React from "react";
-import Links from ".././components/Links";
-import VideoOne from "../assets/VideoOne.mp4";
+import "../components/Sass.scss";
+import Links from "../components/Links";
+import Profile from ".././assets/profile_three.png";
 
 const TalentScreen = () => {
   return (
@@ -10,7 +11,10 @@ const TalentScreen = () => {
         <h1 className="Find">+ FIND TALENT</h1>
         <p className="Dream">Your dream candidate is just around the corner</p>
       </div>
-      <video src={VideoOne} autoPlay="true" className="Background_video" />
+
+      <div className="BackgroundVideo">
+        <img src={Profile} alt="profile-img" className="Profile_image_one" />
+      </div>
     </div>
   );
 };
