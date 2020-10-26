@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import { Row, Col, Button, Form } from "react-bootstrap";
 import { FaPencilAlt, FaScroll, FaLightbulb, FaBox } from "react-icons/fa";
 import profile_one from "../assets/profile_one.png";
@@ -20,8 +21,12 @@ class App extends Component {
           <p className="Create">create your future with us</p>
           <Row>
             <Col>
-              <Button variant="outline-dark mr-4">FIND TALENT</Button>
-              <Button variant="outline-dark">FIND JOB</Button>
+              <Button variant="outline-dark mr-4">
+                <Link to="/TalentScreen">FIND TALENT</Link>
+              </Button>
+              <Button variant="outline-dark">
+                <Link to="/JobScreen">FIND JOB</Link>
+              </Button>
             </Col>
           </Row>
         </div>
