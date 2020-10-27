@@ -13,11 +13,11 @@ const JobScreen = () => {
     <div className="Job_screen">
       <Links />
       <div className="Job_titles">
-        <h1 className="Job_message_one">+ FIND A JOB</h1>
-        <p className="Job_message_two">Put your passion to work</p>
+        <h1 className="Header_title_three">+ FIND A JOB</h1>
+        <p className="Header_description_one">Put your passion to work</p>
       </div>
 
-      <div className="Job_image">
+      <div className="Job_background_image">
         <img src={profile} alt="img" className="Job_image_one" />
 
         <Row>
@@ -50,13 +50,13 @@ const JobScreen = () => {
         </Row>
       </div>
 
-      <div className="Sponsors_screen">
-        <p className="Sponsor_message">
+      <div className="Sponsors_section">
+        <p className="Sponsor_title">
           Our clients are out partners, that's why we choose them carefully:
         </p>
 
-        <Row className="Sponsors_logos">
-          <Col className="Icon_logos">
+        <Row className="Sponsors_logo_main">
+          <Col className="Sponsor_logos">
             <img src={sponsor_one} alt="img" className="Sponsor_image" />
           </Col>
           <Col className="Icon_logos">

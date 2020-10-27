@@ -9,13 +9,15 @@ const TalentScreen = () => {
   return (
     <div>
       <Links />
-      <div className="Talent_screen">
-        <h1 className="Find">+ FIND TALENT</h1>
-        <p className="Dream">Your dream candidate is just around the corner</p>
+      <div className="Talent_section">
+        <h1 className="Header_title_three">+ FIND TALENT</h1>
+        <p className="Header_description_one">
+          Your dream candidate is just around the corner
+        </p>
       </div>
 
-      <div className="BackgroundVideo">
-        <img src={Profile} alt="profile-img" className="Profile_image_one" />
+      <div className="Background_video">
+        <img src={Profile} alt="profile-img" className="Background_video_one" />
 
         <Row>
           <Col className="Talent_header_one" sm={12}>
