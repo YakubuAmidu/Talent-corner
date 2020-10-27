@@ -21,7 +21,7 @@ const JobScreen = () => {
         <img src={profile} alt="img" className="Job_image_one" />
 
         <Row>
-          <Col className="Talent_header_one" sm={12}>
+          <Col className="Talent_header_one" md={6}>
             <p className="Talent_paragraph_one">
               I'm a paragraph. Click here to add your own text and edit me. It’s
               easy. Just click “Edit Text” or double click me to add your own

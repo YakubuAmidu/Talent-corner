@@ -108,7 +108,7 @@ class App extends Component {
             </Col>
           </Row>
           <Row>
-            <Col className="Paragraph_message">
+            <Col className="Paragraph_message" md={6}>
               <p className="Paragraph_message_main">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
