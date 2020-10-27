@@ -59,13 +59,13 @@ const JobScreen = () => {
           <Col className="Sponsor_logos">
             <img src={sponsor_one} alt="img" className="Sponsor_image" />
           </Col>
-          <Col className="Icon_logos">
+          <Col className="Sponsor_logos">
             <img src={sponsor_two} alt="img" className="Sponsor_image" />
           </Col>
-          <Col className="Icon_logos">
+          <Col className="Sponsor_logos">
             <img src={sponsor_three} alt="img" className="Sponsor_image" />
           </Col>
-          <Col className="Icon_logos">
+          <Col className="Sponsor_logos">
             <img src={sponsor_four} alt="img" className="Sponsor_image" />
           </Col>
         </Row>
