@@ -153,9 +153,9 @@ class App extends Component {
                 </div>
               </Col>
 
-              <Col className="Message" md={6}>
-                <div className="Message_one">
-                  <p className="Message_two">
+              <Col className="Message_title" md={6}>
+                <div className="Message_title_one">
+                  <p className="Message_title_two">
                     If you're talented and looking for a job, contact us here.
                   </p>
                   <br />
@@ -168,7 +168,9 @@ class App extends Component {
                     <Form.Control required type="phone" placeholder="Name" />
                     <Form.Label>Enter Your Message</Form.Label>
                     <Form.Control as="textarea" rows={4} />
-                    <Button className="Btn btn-dark submit">submit</Button>
+                    <Button className="Btn btn-warning Btn_submit">
+                      submit
+                    </Button>
                   </Form>
                 </div>
               </Col>
