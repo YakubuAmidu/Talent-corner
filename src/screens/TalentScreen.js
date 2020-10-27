@@ -1,7 +1,7 @@
 import React from "react";
 import "../components/Sass.scss";
 import Links from "../components/Links";
-import Profile from ".././assets/profile_three.png";
+import Talentcorner from ".././assets/Talentcorner.mp4";
 import { Col, Row, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
@@ -16,9 +16,16 @@ const TalentScreen = () => {
         </p>
       </div>
 
-      <div className="Background_video">
-        <img src={Profile} alt="profile-img" className="Background_video_one" />
-
+      <div className="Background_video" autoPlay loop muted>
+        <video
+          src={Talentcorner}
+          controls
+          autoPlay
+          loop
+          muted
+          type="video/mp4"
+          className="Background_video_one"
+        />
         <Row>
           <Col className="Talent_header_one" md={6}>
             <p className="Talent_paragraph_one">
